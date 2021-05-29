@@ -1,0 +1,254 @@
+.contato{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(500deg, #ff1fff9d, #31d6ffb2);
+    padding: 30px 40px;
+}
+.contato .botton{
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    width: 130px;
+    height: 130px;
+    background: linear-gradient(0deg, #790a8f, #FA00CF);
+    border-radius: 50%;
+}
+.contato .left{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(180deg, #8C0CF6, #0C87F6);
+    border-radius: 50%;
+}
+.contato .right{
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(0deg, #0DFFDB, #00FF48);
+    border-radius: 50%;
+}
+.contato .top{
+    position: absolute;
+    bottom: 18%;
+    right: 30%;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(0deg, #ffffff, #00FF48);
+    border-radius: 50%;
+}
+
+/* ################################################################################# */
+
+.contato .container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    background-color: #ffffff6b;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ################################ */
+
+.contato .container .toggle1{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 40px;
+    top: 20px;
+    background-color: #ffffff9c;
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-attachment: fixed;
+}
+
+.contato .container .toggle1 img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* ################################### */
+
+.contato .nav-itens{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff6b;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    z-index: 10000;
+}
+.contato .nav-itens .contet-itens ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+.contato .nav-itens .contet-itens ul li{
+    margin: 10px 0 0 0;
+}
+.contato .nav-itens .contet-itens ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 500;
+    color: #000625;
+    transition: 0.2s;
+}
+.contato .nav-itens .contet-itens ul li a:hover{
+    font-size: 50px;
+}
+.contato .nav-itens .toggle2{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 40px;
+    top: 20px;
+    background-color: #ffffff9c;
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+    background-attachment: fixed;
+}
+.contato .nav-itens .toggle2 img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.contato .container .tilte-contato{
+    position: absolute;
+    top: 40px;
+}
+.contato .container .tilte-contato h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #000625;
+}
+.contato .container .container-contato{
+    position: absolute;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contato .container .container-contato input{
+    margin: 20px 0 0 0;
+    width: 500px;
+    height: 50px;
+    padding-left: 5%;
+    border-style: none;
+    outline: none;
+    background-color: #ffffff65;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+}
+.contato .container .container-contato .mes{
+    margin: 20px 0 0 0;
+    width: 500px;
+    height: 130px;
+    padding: 3% 5%;
+    border-style: none;
+    outline: none;
+    background-color: #ffffff65;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    resize: none;
+    overflow: hidden;
+}
+.contato .container .container-contato button{
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    text-decoration: none;
+    background-color: #ffffff9f;
+    backdrop-filter: blur(20px);
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #9e0707;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* ############################################################################## */
+
+.contato .container .container-links{
+    position: absolute;
+    top: 22%;
+    right: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.contato .container .container-links .links{
+    margin: 25px 0;
+}
+.contato .container .container-links .links h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.contato .container .container-links .links p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.contato .container .container-links .links .itens-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato .container .container-links .itens-links h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.contato .container .container-links .itens-links .icons-links{
+    display: flex;
+    align-items: center;
+}
+.contato .container .container-links .itens-links .icons-links span{
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 0 0;
+    background-color: #ffffff9f;
+    backdrop-filter: blur(20px);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contato .container .container-links .itens-links .icons-links span a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contato .container .container-links .itens-links .icons-links span a img{
+    width: 25px;
+    height: 25px;
+}
