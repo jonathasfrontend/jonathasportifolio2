@@ -116,6 +116,20 @@
     font-weight: 300;
     font-size: 14px;
 }
+.sobre .container .subcotainer .texts-sobre .habil .contat-link{
+    margin: 5% 10px 0 0;
+}
+.sobre .container .subcotainer .texts-sobre .habil .contat-link a{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ffffff9f;
+    backdrop-filter: blur(20px);
+    border: 1px solid #fff;
+    border-radius: 30px;
+    color: #9e0707;
+    font-weight: 500;
+    font-size: 17px;
+}
 
 /* ################################ */
 
