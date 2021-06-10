@@ -30,7 +30,7 @@ body{
 }
 .container .titlao h1{
     text-shadow: 10px 10px 0 #8b8b8b;
-    font-size: 1000%;
+    font-size: 1300%;
     color: #ffffff;
 }
 .container .titlao h1 span{
@@ -45,10 +45,10 @@ body{
 
 @keyframes animate{
     0%,100%{
-        transform: translateX(-50px);
+        transform: translateY(-50px);
     }
     50%{
-        transform: translateX(50px);
+        transform: translateY(50px);
     }
 }
 .container .texts{
@@ -58,8 +58,9 @@ body{
     justify-content: center;
 }
 .container .texts h3{
+    max-width: 80%;
     margin-top: 25px;
-    font-size: 30px;
+    font-size: 24px;
     font-family: 'consolas';
     color: #000000;
 }
@@ -73,9 +74,10 @@ body{
 
 .container .btns{
     margin-top: 20px;
+    display: flex;
+    align-items: center;
 }
 .container .btns a{
-    padding: 10px 20px;
     margin: 10px 10px 0 0;
     text-decoration: none;
     background-color: #ffffff9f;
@@ -85,4 +87,25 @@ body{
     color: #9e0707;
     font-weight: 500;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.container .btns a:hover{
+    background-color: #3f3f3f;
+    color: #fff;
+}
+.container .btns a:nth-child(1){
+    padding: 9px 20px;
+}
+.container .btns a:nth-child(2){
+    padding: 10px 20px;
+}
+.container .btns a img{
+    width: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.container .btns a:hover img{
+    filter: invert(20);
 }
